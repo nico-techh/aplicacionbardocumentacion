@@ -1,0 +1,39 @@
+name: appbarnicodocumentacion
+description: "A new Flutter project con accesibilidad y MVVM."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Iconos Cupertino
+  cupertino_icons: ^1.0.8
+
+  # Provider para MVVM
+  provider: ^6.0.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Assets (imágenes, iconos u otros)
+  # assets:
+  #   - assets/images/
+
+  # Fonts personalizados (si quieres usar alguno)
+  # fonts:
+  #   - family: Roboto
+  #     fonts:
+  #       - asset: fonts/Roboto-Regular.ttf
+  #       - asset: fonts/Roboto-Bold.ttf
+  #         weight: 700
