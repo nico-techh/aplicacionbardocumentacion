@@ -1,16 +1,57 @@
-# appbarnicodocumentacion
+#  App de Gestión de Pedidos para Bar
 
-A new Flutter project.
+Aplicación móvil desarrollada en **Flutter** para la gestión sencilla de pedidos en un bar.  
+Permite crear, visualizar y administrar pedidos de forma rápida e intuitiva desde una interfaz clara y moderna.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+##  Descripción
 
-A few resources to get you started if this is your first Flutter project:
+Esta aplicación está pensada para facilitar la toma de pedidos en un bar o cafetería.  
+Desde la pantalla principal se puede visualizar la lista de pedidos existentes y añadir nuevos pedidos mediante un botón flotante, manteniendo el estado de la aplicación de forma reactiva gracias a **Provider**.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+El proyecto sigue una estructura clara basada en el patrón **MVVM (Model–View–ViewModel)**, lo que facilita su mantenimiento y escalabilidad.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+##  Tecnologías utilizadas
+
+- **Flutter** – Framework principal para el desarrollo de la aplicación
+- **Dart** – Lenguaje de programación
+- **Provider** – Gestión de estado
+- **Material Design** – Diseño de la interfaz de usuario
+
+---
+
+##  Características principales
+
+- Visualización de una lista de pedidos
+- Creación de nuevos pedidos mediante una pantalla dedicada
+- Actualización automática de la interfaz al añadir pedidos
+- Gestión del estado usando `Provider`
+- Arquitectura basada en MVVM
+- Interfaz sencilla e intuitiva con componentes Material
+
+---
+
+## Pantalla principal
+
+La pantalla principal muestra:
+- Un **AppBar** con el título *PEDIDOS*
+- Un **FloatingActionButton** para crear nuevos pedidos
+- Una **lista dinámica de pedidos**, renderizada mediante un widget personalizado (`PedidoCard`)
+
+---
+
+## Posibles mejoras futuras
+
+- Edición y eliminación de pedidos
+- Persistencia de datos (base de datos local o backend)
+- Gestión de mesas y productos
+- Control de estados del pedido (pendiente, servido, pagado)
+
+---
+
+## Autor
+
+Proyecto desarrollado como ejercicio práctico de Flutter para la gestión básica de pedidos en un bar.
