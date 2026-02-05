@@ -162,15 +162,12 @@ Prueba:
 
 Si necesitas ayuda con la app (errores, dudas, sugerencias), contacta con el equipo:
 
-- **Email:** contacto@ejemplo.com *(cámbialo por vuestro email real)*
-- **Asunto recomendado del correo:** “Soporte — App Bar Accesible”
+- **Email:** nicolasete33@gmail.com 
 - **Qué información enviar:**
   - Modelo del móvil (Android/iPhone)
   - Versión aproximada del sistema (si la sabes)
   - Qué estabas haciendo cuando ocurrió el problema
   - Captura de pantalla (si puedes)
-
-**Horario de respuesta (ejemplo):** 24–48 horas lectivas.
 
 ---
 **Fin del manual**
