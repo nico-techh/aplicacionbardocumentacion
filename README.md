@@ -54,4 +54,4 @@ La pantalla principal muestra:
 
 ## Autor
 
-Proyecto desarrollado como ejercicio práctico de Flutter para la gestión básica de pedidos en un bar.
+Pedro Nicolás MUñoz Moruzzi 2DAM
